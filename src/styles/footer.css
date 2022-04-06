@@ -18,11 +18,14 @@ footer {
   justify-content: space-around;
   list-style: none;
 }
-.footer-list a {
-  cursor: pointer;
+.footer-list li > a {
+  transition: all 0.3s ease;
+}
+.footer-list li > a:hover {
+  color: hsl(0, 0%, 100%);
 }
 
-.footer-nav h1 {
+.footer-nav > h1 {
   color: hsl(168, 40%, 16%);
   font-weight: 700;
   margin-bottom: 2rem;
@@ -32,6 +35,12 @@ footer {
   justify-content: space-between;
 }
 
-.footer--icons i {
+.footer--icons > i {
   padding: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footer--icons > i:hover {
+  color: hsl(0, 0%, 100%);
 }
