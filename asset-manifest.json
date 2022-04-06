@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/sunnyside-agency-landing-page-main/static/css/main.78724eba.css",
+    "main.js": "/sunnyside-agency-landing-page-main/static/js/main.5298d42f.js",
+    "static/js/787.144c8e33.chunk.js": "/sunnyside-agency-landing-page-main/static/js/787.144c8e33.chunk.js",
+    "static/media/image-header.jpg": "/sunnyside-agency-landing-page-main/static/media/image-header.49b52ffa54752cb7c2d0.jpg",
+    "static/media/image-gallery-milkbottles.jpg": "/sunnyside-agency-landing-page-main/static/media/image-gallery-milkbottles.df1d9d8460e873924250.jpg",
+    "static/media/image-gallery-sugarcubes.jpg": "/sunnyside-agency-landing-page-main/static/media/image-gallery-sugarcubes.09b72f4fbfbf08579f9d.jpg",
+    "static/media/image-gallery-orange.jpg": "/sunnyside-agency-landing-page-main/static/media/image-gallery-orange.49f4212bc650862672a7.jpg",
+    "static/media/image-gallery-cone.jpg": "/sunnyside-agency-landing-page-main/static/media/image-gallery-cone.461ff4214c3ac822dfff.jpg",
+    "static/media/image-graphic-design.jpg": "/sunnyside-agency-landing-page-main/static/media/image-graphic-design.7ac8bdf0d3df29591a3b.jpg",
+    "static/media/image-photography.jpg": "/sunnyside-agency-landing-page-main/static/media/image-photography.104cf40b52f66520afb0.jpg",
+    "static/media/logo.svg": "/sunnyside-agency-landing-page-main/static/media/logo.4271b8992622e4dd1cc7de08466dab06.svg",
+    "index.html": "/sunnyside-agency-landing-page-main/index.html",
+    "static/media/icon-arrow-down.svg": "/sunnyside-agency-landing-page-main/static/media/icon-arrow-down.979ef07a7cbb07d35f05bbaa093f7489.svg",
+    "static/media/icon-hamburger.svg": "/sunnyside-agency-landing-page-main/static/media/icon-hamburger.7764b7eb6060edb45161f8b146f1373c.svg",
+    "main.78724eba.css.map": "/sunnyside-agency-landing-page-main/static/css/main.78724eba.css.map",
+    "main.5298d42f.js.map": "/sunnyside-agency-landing-page-main/static/js/main.5298d42f.js.map",
+    "787.144c8e33.chunk.js.map": "/sunnyside-agency-landing-page-main/static/js/787.144c8e33.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78724eba.css",
+    "static/js/main.5298d42f.js"
+  ]
+}
