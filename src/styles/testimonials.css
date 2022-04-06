@@ -1,0 +1,47 @@
+.Testimonials--section {
+  padding: 5rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Testimonials--section h1 {
+  color: hsl(232, 10%, 55%);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+.Testimonials--section img {
+  border-radius: 50%;
+  width: 4rem;
+  margin-bottom: 2rem;
+}
+
+.Testimonials--section p {
+  color: hsl(213, 9%, 39%);
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+  width: 90%;
+}
+.Testimonials--section h4 {
+  color: hsl(212, 27%, 19%);
+  font-weight: 900;
+}
+
+#job {
+  color: hsl(232, 10%, 55%);
+  font-size: 0.8rem;
+  margin-bottom: 3.5rem;
+}
+
+.test--card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

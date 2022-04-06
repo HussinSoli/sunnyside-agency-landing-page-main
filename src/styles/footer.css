@@ -1,0 +1,37 @@
+footer {
+  background-color: hsl(168, 34%, 41%);
+  color: hsl(167, 40%, 24%);
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  max-width: 400px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.footer-list a {
+  cursor: pointer;
+}
+
+.footer-nav h1 {
+  color: hsl(168, 40%, 16%);
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.footer-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer--icons i {
+  padding: 0.5rem;
+}

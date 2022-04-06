@@ -1,0 +1,70 @@
+header {
+  /* background-color: hsl(198, 73%, 66%); */
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/desktop/image-header.jpg");
+  background-size: cover;
+  background-position: center;
+}
+ul {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1.5rem;
+  position: relative;
+  margin-bottom: 2rem;
+}
+#logo {
+  align-self: baseline;
+}
+#drop-list {
+  display: block;
+  margin-left: auto;
+  margin-top: 0;
+}
+
+/* descktop */
+.desk-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.desk-list > li {
+  padding: 0 1rem;
+}
+
+/* mobile */
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 3rem;
+  position: absolute;
+  top: 85%;
+  left: 5%;
+  background-color: hsl(0, 0%, 100%);
+  clip-path: polygon(93% 10%, 100% 0, 100% 100%, 0 100%, 0 10%);
+}
+.nav-list li {
+  padding: 0.7rem;
+}
+
+.nav-list li a {
+  color: hsl(232, 10%, 55%);
+}
+
+.mobile-list li a:hover,
+.mobile-lsit li a:active {
+  color: black;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}

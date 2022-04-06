@@ -1,0 +1,81 @@
+main {
+  display: grid;
+  grid-template-columns: 100%;
+  width: 100%;
+}
+
+.offers--section img {
+  width: 100%;
+  display: block;
+}
+
+.offers--card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 4rem 2rem;
+  text-align: center;
+  /* position: relative; */
+}
+.offers--card h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  overflow-wrap: break-word;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  width: 90%;
+  color: hsl(212, 27%, 19%);
+}
+.offers--card p {
+  font-size: 1rem;
+  color: hsl(232, 10%, 55%);
+  font-weight: 700;
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+  width: 75%;
+  text-align: center;
+}
+
+.offers--card a {
+  font-family: "Fraunces", sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.link {
+  position: relative;
+}
+.underline {
+  padding: 3px;
+  width: 8.2rem;
+  border-radius: 1rem;
+  position: absolute;
+  top: 56.8%;
+  left: -5%;
+  z-index: -1;
+}
+
+.card--info {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  align-content: end;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.card--info h3 {
+  font-size: 2rem;
+
+  margin-bottom: 2rem;
+}
+.card--info p {
+  line-height: 1.5rem;
+}

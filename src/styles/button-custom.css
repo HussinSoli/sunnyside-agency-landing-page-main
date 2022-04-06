@@ -1,0 +1,24 @@
+button {
+  padding: 0.7rem 1.2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  transition: all 0.3 ease;
+}
+
+.primary {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.primary:hover {
+  background-color: hsl(51, 100%, 49%);
+}
+
+.secondary {
+  background-color: hsl(51, 100%, 49%);
+}
+
+.secondary:hover {
+  background-color: hsl(51, 90%, 69%);
+}

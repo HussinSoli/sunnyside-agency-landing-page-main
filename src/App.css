@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Barlow", sans-serif;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+button {
+  font-family: "Fraunces", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Fraunces", sans-serif;
+}
+
+@media only screen and (min-width: 750px) {
+  .offers--section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .offers--card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .offers--section p,
+  h2 {
+    width: 65%;
+    text-align: left;
+  }
+  .offers--section h2 {
+    font-size: 2.5rem;
+  }
+
+  .info--section {
+    display: flex;
+  }
+
+  .card--info p,
+  h3 {
+    text-align: center;
+  }
+
+  .card--info p {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  .test--cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .test--card p {
+    width: 80%;
+  }
+  .test--card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gallery--section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .underline {
+    left: -6%;
+  }
+
+  .egg {
+    grid-area: 1/2/2/3;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 1000px) and (min-width: 750px) {
+  .offers--card {
+    padding: 0;
+    margin: 0;
   }
-  to {
-    transform: rotate(360deg);
+  .offers--card h2 {
+    font-size: 1.8rem;
   }
 }

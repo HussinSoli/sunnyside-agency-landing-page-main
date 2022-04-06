@@ -1,0 +1,17 @@
+.Hero--section {
+  text-align: center;
+}
+
+.Hero--section h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  overflow-wrap: break-word;
+  letter-spacing: 3px;
+  margin-bottom: 4rem;
+}
+
+.Hero--section img {
+  width: 2rem;
+}
